@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>That Perfect dish</title>
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Stylesheets-->
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./mainpage.css">
+    <base target="_blank">
+
+    </head>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  button,
+  input {
+    font: 12px arial;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  input,
+  button {
+    border: none;
+    outline: none;
+  }
+  
+  body {
+    background-color: #f8fafc;
+    /* width: 100%;
+    height: 100%;
+    background-image: url(./imgs/homepagebackground.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+  }
+
+  .clearfix {
+    *zoom: 1;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+
+  .landing_page{
+      background-image: url(./imgs/landing_page_png.png);
+      background-repeat: no-repeat;
+      height: 84em;
+      width: 100%;
+      background-size: 100%;
+      background-attachment: scroll;
+      
+  }
+
+  .chillies{
+    height: auto;
+    position: relative;
+  }
+
+  .revati{
+    float: left;
+    width:6%;
+    padding-top: 26%;
+    right: 5.5%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+  }
+  .kanata{
+    float: left;
+    width: 9%;
+    padding-top: 31.5%;
+    right: 35%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .javier{
+    float: left;
+    width: 9%;
+    padding-top: 26%;
+    right: 83%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+  }
+
+
+  .chillie_img{
+    /* width: 3%; */
+  }
+
+  .chillie_lk:hover .chillie_img{
+    transform: scale(1.05);
+    transition:transform .5s ease;
+  }
+
+  .scroll{
+    position: relative;
+  }
+
+  .scroll_img{
+    float: left;
+    width: 145px;
+    position: absolute;
+    padding-top: 33.5%;
+    right: 57%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+    /* transform: rotate(-60deg); */
+  }
+
+  .scroll_lk:hover .scroll_img{
+    transform: scale(1.03);
+    transition:transform .5s ease;
+  }
+
+  .playbotton{
+    position: relative;
+  }
+
+  .botton_img{
+    float: left;
+    width: 4%;
+    position: absolute;
+    top: 27em;
+    /* padding-bottom: 46.5%; */
+    right: 49.5%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+    /* transform: rotate(-60deg); */
+  }
+
+  .botton_lk:hover .botton_img{
+    transform: scale(1.2);
+    transition:transform .5s ease;
+  }
+
+
+  .team_information{
+    position: relative;
+  }
+
+  .team_img{
+    float: left;
+    width: 8%;
+    position: absolute;
+    top: 20em;
+    /* padding-bottom: 46.5%; */
+    right: 69.5%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+    /* transform: rotate(-60deg); */
+  }
+
+  .team_information:hover .team_img{
+    transform: scale(1.2);
+    transition:transform .5s ease;
+  }
+
+
+
+  .world_map{
+    position: relative;
+  }
+
+  .map_img{
+    float: left;
+    width: 17%;
+    position: absolute;
+    top: 20.5em;
+    /* padding-bottom: 46.5%; */
+    right: 15.5%;
+    z-index: 999;
+    position: absolute;
+    cursor: pointer;
+    /* transform: rotate(-60deg); */
+  }
+
+
+  .world_map:hover .map_img{
+    transform: scale(1.2);
+    transition:transform .5s ease;
+  }
+    </style>
+    <body>
+    <div class="landing_page">
+        <div class="chillies">
+            <div><a href="./sub_pages/javier.html" class="chillie_lk"><img src="./imgs/green Chillie.png" alt=""
+                        class="chillie_img revati clearfix"></a>
+            </div>
+            <div><a href="./sub_pages/kanata.html" class="chillie_lk"><img src="./imgs/yellow Chillie.png" alt=""
+                        class="chillie_img kanata clearfix"></a>
+            </div>
+            <div><a href="./sub_pages/revati.html" class="chillie_lk"><img src="./imgs/red Chillie.png" alt=""
+                        class="chillie_img javier clearfix"></a>
+            </div>
+        </div>
+        <div class="scroll">
+            <div><a href="./reciepe.html" class="scroll_lk"><img src="./imgs/Scroll.png" alt="" class="scroll_img"></a>
+            </div>
+        </div>
+        <div class="playbotton">
+            <div><a href="https://www.youtube.com/embed/GG0Xq_p29NA" class="botton_lk"><img src="./imgs/playbotton.png" alt="" class="botton_img"></a>
+            </div>
+        </div class>
+        <div class="team_information">
+            <div><a href="./about_our_team.html"><img src="./imgs/teams.png" alt="" class="team_img"></a></div>
+
+        </div>
+        <div class="world_map">
+            <div><a
+                    href="https://ar.adobe.com/landing/?id=aHR0cHM6Ly9jYy1hcGktY3AuYWRvYmUuaW8vYXBpL3YyL2Flcm8vYXNzZXRzLzU1NGE5MDEwLWEyNTUtNDU1MS1iMTM3LTQyMGI0OWIwYWY4MD9hcGlfa2V5PUFlcm9fQ29udGVudF9TZXJ2aWNlMQ%3D%3D&platform=desktop&_branch_match_id=1042318497203769814&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT0zJT0pNTC3K10ssKNDLyczL1i8wLSyqNPNwtMxPAgAS6OfnJgAAAA%3D%3D"><img
+                        src="./imgs/world_map.png" alt="" class="map_img"></a></div>
+
+        </div>
+        <div>
+
+        </div>
+        <!-- <div class="team_information"><a href="./about_our_team.html">
+                <h1>About Our team</h1>
+            </a>
+            <a href="./imgs/landing_page_png.png">
+        </div> -->
+    </div>
+    </body>
+    
+    </html>

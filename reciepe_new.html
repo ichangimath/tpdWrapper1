@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>That Perfect Dish</title>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+    <base target="_blank">
+    <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body,
+  button,
+  input {
+    font: 18px arial;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  input,
+  button {
+    border: none;
+    outline: none;
+  }
+  
+  body {
+    background-color: #0D1149;
+  }
+
+
+  .banner {
+    width: 1200px;
+    height: 140px;
+    margin: 10px auto 0;
+    /* border-radius: 10px; */
+    display: flex;
+    overflow: hidden;
+
+    /* box-shadow: 0 12px 24px 0 rgb(7 17 27 / 60%); */
+}
+.banner:last-child{
+  padding-bottom: 60px;
+}
+
+.banner_left {
+    flex: 2;
+}
+
+.banner_rigt {
+    flex: 8;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.banner_left img {
+    width: 40%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.right {
+    flex: 2;
+}
+
+.right img {
+    width: 40%;
+    height: auto;
+} 
+
+.left {
+    flex: 8;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+  .banner_left:hover img{
+    transform: scale(1.1);
+    transition:transform .5s ease;
+  }
+
+
+  .right:hover img{
+    transform: scale(1.1);
+    transition:transform .5s ease;
+  }
+
+
+  #one{
+    position: relative;
+  }
+  #img_one{
+    position: absolute;
+    top: 7px;
+    right: 87px;
+  }
+  #two{
+    position: relative;
+  }
+  #img_two{
+    position: absolute;
+    top: 44px;
+    right: 42px;
+  }
+  #three{
+    position: relative;
+  }
+  #img_three{
+    position: absolute;
+    top: 44px;
+    right: 94px;
+  }
+  #four{
+    position: relative;
+  }
+  #img_four{
+    position: absolute;
+    top: 44px;
+    right: 42px;
+  }
+  #five{
+    position: relative;
+  }
+  #img_five{
+    position: absolute;
+    top: 48px;
+    right: 94px;
+  }
+  #six{
+    position: relative;
+  }
+  #img_six{
+    position: absolute;
+    top: 44px;
+    right: 42px;
+  }
+
+
+  .nav{
+    width: 1200px;
+    height: auto;
+    margin: 40px auto 0;
+    /* border-radius: 10px; */
+    display: flex;
+    overflow: hidden;
+  }
+  .nav h1{
+    width: 115px;
+    margin: 10px auto;
+  }
+
+
+
+
+
+  </style>
+  
+  </head>
+  <body>
+    <div>
+
+    </div>
+    <div class="nav"><h1>Menu</h1></div>
+    <div class="clickables">
+      <div class="banner">
+        <div class="banner_left" id="one">
+          <a href="./sub_pages/Peppertiny.html"><img src=".//imgs/food imgs/peppertini.png" alt="" id="img_one"></a>
+        </div>
+        <div class="banner_rigt">
+          <div class="text_topic">
+            <h3>Peppertini</h3>
+          </div>
+          <div class="text_body">
+            The Peppertini is the drink of choice for our pepper trio. They love it strong or light depending on their mood
+            for the
+            day. Easy to make, shaken not stirred, this is the perfect drink to sit back with or carry along as you enjoy the
+            journey through the Chamber of Chillies!
+      
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="left">
+          <div class="text_topic"><h3>Beef Fries</h3></div>
+          <div class="text_body">If it wasn’t already obvious, Kerala Beef Fry is named after the city of its origin: Kerala! This beautiful spicy dish
+          is a staple from God’s Own Country. Don’t let the amount of ingredients scare you off, this dish can easily be made at
+          home. All you need is a little bit of patience and time to be well-rewarded with great flavours. So give it a try!
+          </div>
+        </div>
+        <div class="right" id="two">
+          <a href="./sub_pages/Beeffries.html"><img src=".//imgs/food imgs/beeffries.png" alt="" id="img_two"></a>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner_left" id="three">
+          <a href="./sub_pages/Chilli.html"><img src=".//imgs/food imgs/chilliconcarne.png" alt="" id="img_three"></a>
+        </div>
+        <div class="banner_rigt">
+          <div class="text_topic"><h3>Chilli Concarne</h3></div>
+          <div class="text_body">Originating in Northern Mexico, the chilli is a classic dish that has been embraced by lovers of
+            spicy flavoursome food everywhere. Also called “Chilli Con Carne”, this spicy stew generally contains meat along with
+            tomatoes and kidney beans. The first recorded mention of chilli as it is made today goes back to 1857. However,
+            mentions of chilli pepper-seasoned stews being consumed in the Aztec capital (present-day Mexico city) go back to 1526
+            revealing the enduring allure of this dish!
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner_rigt">
+          <div class="text_topic"><h3>Chilli Panner</h3></div>
+          <div class="text_body">Sometimes the best dishes are ones that are a fusion of two cuisines. In this instance, the
+            Chilli Paneer is an Indian-Chinese fusion and very popular with the vegetarian crowd. Paneer is the Hindi word for
+            cottage cheese and the soft chewy texture of the cheese makes it perfect for a batter-fried stir-fry laden with spicy
+            flavours!
+          </div>
+        </div>
+        <div class="banner_left" id="four">
+          <a href="./sub_pages/Chilli Panner.html"><img src=".//imgs/food imgs/chillipanner.png" alt="" id="img_four"></a>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner_left" id="five">
+          <a href="./sub_pages/Kongpao.html"><img src=".//imgs/food imgs/stew.png" alt="" id="img_five"></a>
+        </div>
+        <div class="banner_rigt">
+          <div class="text_topic"><h3>Kongpao Chicken</h3></div>
+          <div class="text_body">The Kung Pao Chicken is a Chinese classic. Found in restaurants worldwide, this classic stir-fry
+            dish is beloved by all. You can pair it with steamed white rice or have it on its own. The best thing about it is that
+            you can turn the heat up or down to suit your palette!
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner_rigt">
+          <div class="text_topic"><h3>Spicy Coockies</h3></div>
+          <div class="text_body">The concoction sounds like a weird one – spicy and sweet, that too a dessert? But then again,
+            chilli chocolate is very much a thing, so why not a spicy peanut butter cookie? It’s earth and fire, sweet and spice,
+            nutty and naughty all in one, and perfect for that after-meal crunch!
+          </div>
+        </div>
+        <div class="banner_left" id="six">
+          <a href="./sub_pages/Coockies.html"><img src=".//imgs/food imgs/spicycoockies.png" alt="" id="img_six"></a>
+        </div>
+      </div>
+     
+    </div>
+  </body>
+
+
+  </html>
